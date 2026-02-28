@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#heroSection {
+  background-image: url(Surprised_Girl.webp);
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.leftHero {
+  float: left;
+  padding: 20px;
+  width: 40%;
+}
+
+.logoSide {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.logoSide a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.1s ease-in;
+}
+
+.logoSide:hover a {
+  color: #1eb2a6;
+}
+
+.hours {
+  float: right;
+}
+
+.hours span {
+  display: block;
+  color: white;
+}
+
+.hours strong {
+  color: white;
+}
+
+.hours svg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.hours div {
+  float: right;
+  margin-left: 5px;
+}
+
+.rightHero {
+  float: right;
+  padding: 20px;
+  width: 40%;
+}
+
+.callUs {
+  display: inline-block;
+  width: 50%;
+}
+
+.callUs span {
+  display: block;
+  color: white;
+}
+
+.callUs strong {
+  color: white;
+}
+
+.callUs svg {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.callUs div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.socialIcons {
+  float: right;
+}
+
+.socialIcons a {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.socialIcons a i {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1eb2a6;
+}
+
+.socialIcons a:hover i {
+  color: white;
+}
+
+.socialIcons a:hover {
+  background: #1eb2a6;
+}
+
+#navBar {
+  position: absolute;
+  top: 15%;
+}
+
+.links {
+  margin-left: 20px;
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding-left: 25px;
+  background-color: #ffffff20;
+  width: 96vw;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  font-weight: 500;
+  transition: all 0.1s ease-in-out;
+}
+
+.links li a:hover {
+  color: #1eb2a6;
+}
+
+.rectangle button {
+  margin-left: 630px;
+  padding: 5px 50px;
+  cursor: pointer;
+  background: #1eb2a6;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.heroContent{
+  position: absolute;
+  top: 40%;
+  padding: 50px;
+}
